@@ -8,7 +8,7 @@ from spack_repo.builtin.build_systems.cuda import CudaPackage
 from spack.package import *
 
 
-class Opticks(CMakePackage, CudaPackage):
+class EicOpticks(CMakePackage, CudaPackage):
     """GPU-Accelerated Optical Photon Simulation using NVIDIA OptiX"""
 
     homepage = "https://github.com/bnlnpps/eic-opticks"
